@@ -1,0 +1,56 @@
+" load Pathogen (to load plugins)
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" plugins on and turn on indentation
+filetype on
+filetype plugin on
+filetype indent on
+
+" use modern modern mode 
+set nocompatible
+
+" lines wrap 2 spaces from the edge
+set bs=2
+
+" set the width of tabs and indents to 4 spaces
+set tabstop=4
+set shiftwidth=4
+
+" switch buffers without writing to disk
+set hidden
+
+" set terminal title to filename
+set title
+
+" remember more commands and search patterns
+set history=1000
+
+set incsearch
+
+" Case-smart search
+set ignorecase
+set smartcase
+
+set scrolloff=3
+set wildmode=longest,list
+
+"Turn off the bell sound
+set visualbell
+
+" Highlight current line
+"set cursorline
+
+" show the rule
+set ruler
+
+" Set the colour scheme to Solarized
+"set background=dark
+"syntax enable
+"colorscheme solarized
+
+" Enable syntax highlighting
+syntax on
+
+" Set jj to exit insert mode
+imap jj <Esc>

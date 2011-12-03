@@ -1,0 +1,15 @@
+# Set status bar configs
+hardstatus alwayslastline
+hardstatus string '%{= BW}%H| %-Lw%{= RW}%50>%n%f* %t%{-}%+Lw%<'
+
+# use the visual bell
+vbell on
+
+# set a big scroll back buffer
+defscrollback 5000
+
+# how to move the input focus
+bind j focus down
+bind k focus up
+bind t focus top
+bind b focus bottom
