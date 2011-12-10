@@ -45,12 +45,23 @@ set visualbell
 set ruler
 
 " Set the colour scheme to Solarized
-"set background=dark
-"syntax enable
-"colorscheme solarized
+set background=dark
+syntax enable
+colorscheme solarized
 
 " Enable syntax highlighting
 syntax on
 
 " Set jj to exit insert mode
 imap jj <Esc>
+
+" Set code folding
+set foldmethod=indent
+set foldlevel=99
+
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+
+" Set F5 to be the date in normal and insert mode
+:nnoremap <F5> "=strftime("%c")<CR>P
+:inoremap <F5> <C-R>=strftime("%c")<CR>
