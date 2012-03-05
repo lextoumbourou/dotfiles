@@ -1,6 +1,5 @@
 " load Pathogen (to load plugins)
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 " plugins on and turn on indentation
 filetype on
@@ -59,7 +58,6 @@ imap jj <Esc>
 set foldmethod=indent
 set foldlevel=99
 
-au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 
 " Set F5 to be the date in normal and insert mode
