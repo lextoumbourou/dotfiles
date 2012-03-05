@@ -17,8 +17,11 @@
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
 [submodule "vim/bundle/pyflakes-vim"]
-	path = vim/bundle/pyflakes-vim
+	path = vim/bundle/pyflakes
 	url = https://github.com/kevinw/pyflakes-vim.git
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/pathogen"]
+	path = vim/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
