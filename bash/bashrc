@@ -10,5 +10,5 @@ export PS1="\u@\h:\w> "
 # If work laptop, show hosts in SSH config
 if [ $(hostname) = "workdev01" ]
 then
-	alias hosts="grep 'Host\ ' ~d328423/.ssh/config | cut -d' ' -f2 | sort"
+	alias hosts="grep 'Host\ ' ~/.ssh/config | cut -d' ' -f2 | sort"
 fi
