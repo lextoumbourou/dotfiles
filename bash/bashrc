@@ -1,9 +1,14 @@
 # Use Vi commands in the terminal
 set -o vi
 
-# Start Screen
-#screen
-
 # Setup aliases
-alias ll="ls -l"
-alias tweb="ssh -q 192.168.1.109"
+alias ll="ls -la"
+
+# Setup prompt
+export PS1="\u@\h:\w> "
+
+# If work laptop, show hosts in SSH config
+if [ $(hostname) = "workdev01" ]
+then
+	alias hosts="grep 'Host\ ' ~d328423/.ssh/config | cut -d' ' -f2 | sort"
+fi
