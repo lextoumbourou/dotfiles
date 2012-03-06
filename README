@@ -1,5 +1,5 @@
-Installation:
-	
+Installation instructions:
+
 	cd ~
 	git clone git://github.com/lextoumbourou/dotfiles.git
 	cd dotfiles/bin
