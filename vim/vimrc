@@ -12,12 +12,15 @@ set nocompatible
 " lines wrap 2 spaces from the edge
 set bs=2
 
-" use spaces for the tab character
+" Setting for Python
+set tabstop=8
 set expandtab
-
-" set the width of tabs and indents to 4 spaces
-set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+set modeline
+set term=ansi
+set textwidth=75
+set smarttab
 
 " switch buffers without writing to disk
 set hidden
@@ -41,7 +44,7 @@ set wildmode=longest,list
 set visualbell
 
 " Highlight current line
-"set cursorline
+" set cursorline
 
 " show the rule
 set ruler
