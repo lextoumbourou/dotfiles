@@ -13,3 +13,4 @@ bind j focus down
 bind k focus up
 bind t focus top
 bind b focus bottom
+
