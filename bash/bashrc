@@ -8,7 +8,6 @@ alias gitc="git add . && git commit -a -m"
 # Setup prompt
 export PS1="\u@\h:\w> "
 
-<<<<<<< HEAD
 # If work laptop, show hosts in SSH config
 if [ $(hostname) = "workdev01" ]
 then
