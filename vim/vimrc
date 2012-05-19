@@ -18,8 +18,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set modeline
-set term=ansi
-set textwidth=75
 set smarttab
 
 " switch buffers without writing to disk
@@ -31,20 +29,16 @@ set title
 " remember more commands and search patterns
 set history=1000
 
-set incsearch
-
 " Case-smart search
 set ignorecase
 set smartcase
+set incsearch
 
 set scrolloff=3
 set wildmode=longest,list
 
 "Turn off the bell sound
 set visualbell
-
-" Highlight current line
-" set cursorline
 
 " show the rule
 set ruler

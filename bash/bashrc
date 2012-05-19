@@ -3,7 +3,14 @@ set -o vi
 
 # Setup aliases
 alias ll="ls -la"
-alias gitc="git add . && git commit -a -m"
+
+# Git aliases
+alias gc="git commit -a -m "
+alias gp="git push"
+alias gs="git status"
+alias gb="git branch"
+alias gd="git diff"
+alias gu="git pull"
 
 # Setup prompt
 export PS1="\u@\h:\w> "
