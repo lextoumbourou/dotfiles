@@ -27,7 +27,7 @@ alias gc="git commit -a -m "
 alias gp="git push"
 alias gs="git status"
 alias gb="git branch"
-alias g="git diff"
+alias gd="git diff"
 alias gu="git pull"
 
 # Setup prompt

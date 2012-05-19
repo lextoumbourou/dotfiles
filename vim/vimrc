@@ -1,5 +1,5 @@
 " load Pathogen (to load plugins)
-call pathogen#infect()
+"call pathogen#infect()
 
 " plugins on and turn on indentation
 filetype on
