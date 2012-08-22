@@ -44,6 +44,11 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# Support bash completion
+if [ -f /etc/bash_completion ]
+then
+    . /etc/bash_completion
+fi
+
 # Host specific settings
 source ~/.host.bashrc
-
