@@ -1,12 +1,8 @@
-# My Dotfiles
-
-Description
+My Dotfiles
 ===========
 
-Whadaya think?
-
 Installation
-============
+------------
 
 ```bash
 cd ~
