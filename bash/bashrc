@@ -23,7 +23,8 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # Git aliases
-alias gc="git commit -a -m "
+alias gc="git commit -m "
+alias ga="git add "
 alias gp="git push"
 alias gs="git status"
 alias gb="git branch"
@@ -36,13 +37,15 @@ export PS1="\u@\h:\w> "
 # Other env
 export DEBEMAIL="lex.toumbourou@team.telstra.com"
 export DEBFULLNAME="Lex Toumbourou"
+export PYTHONSTARTUP=~/.pythonrc
 
-# append to the history file, don't overwrite it
-shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+
+# Maintain history across windows and tabs
+shopt -s histappend
 
 # Support bash completion
 if [ -f /etc/bash_completion ]
