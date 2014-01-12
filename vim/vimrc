@@ -63,3 +63,6 @@ let g:SuperTabDefaultCompletionType = "context"
 " Set F5 to be the date in normal and insert mode
 :nnoremap <F5> "=strftime("%c")<CR>P
 :inoremap <F5> <C-R>=strftime("%c")<CR>
+
+" Paste mode with F3
+set pastetoggle=<F3>
