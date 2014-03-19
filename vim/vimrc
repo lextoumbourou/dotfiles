@@ -66,3 +66,6 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " Paste mode with F3
 set pastetoggle=<F3>
+
+" Markdown syntax highlighting
+au BufRead,BufNewFile *.md set filetype=markdown
