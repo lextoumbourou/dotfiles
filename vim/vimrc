@@ -43,11 +43,6 @@ set visualbell
 " show the rule
 set ruler
 
-" Set the colour scheme to Solarized
-" set background=dark
-" syntax enable
-" colorscheme solarized
-
 " Enable syntax highlighting
 syntax on
 
