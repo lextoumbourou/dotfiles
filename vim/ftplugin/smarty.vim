@@ -1,4 +1,4 @@
-" Setting for Python
+" Setting for PHP
 setlocal expandtab " hitting Tab in insert mode will produce the appropriate number of spaces
 setlocal shiftwidth=2 " how many columns text is indented with using >> and <<
 setlocal softtabstop=2 " with expandtab set, tabs equal this amount of spaces
