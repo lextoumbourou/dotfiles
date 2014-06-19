@@ -50,5 +50,13 @@ then
     . /etc/bash_completion
 fi
 
+# Add Pyenv support if we need it
+if [ -d $HOME/.pyenv ]
+then
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+fi
+
 # Host specific settings
 source ~/.host.bashrc
