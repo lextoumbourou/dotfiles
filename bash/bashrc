@@ -50,7 +50,7 @@ then
 fi
 
 # Use keychain to manage passphrase
-eval `keychain --eval id_dsa`
+eval `keychain --eval id_rsa`
 
 # Host specific settings
 source ~/.host.bashrc
