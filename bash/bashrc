@@ -36,7 +36,6 @@ export DEBEMAIL="lex.toumbourou@team.telstra.com"
 export DEBFULLNAME="Lex Toumbourou"
 export PYTHONSTARTUP=~/.pythonrc
 
-
 # Unlimited history. I'll manage it myself. 
 HISTSIZE=""
 HISTFILESIZE=""
@@ -50,6 +49,8 @@ then
     . /etc/bash_completion
 fi
 
+# Use keychain to manage passphrase
+eval `keychain --eval id_dsa`
 
 # Host specific settings
 source ~/.host.bashrc
