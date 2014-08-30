@@ -35,3 +35,6 @@ ln -sv ~/dotfiles/screen/screenrc ~/.screenrc
 
 check_or_move '.tmux.conf'
 ln -sv ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+
+check_or_move '.inputrc'
+ln -sv ~/dotfiles/bash/inputrc ~/.inputrc
