@@ -62,3 +62,4 @@ set pastetoggle=<F3>
 
 " Markdown syntax highlighting
 au BufRead,BufNewFile *.md set filetype=markdown
+au BufRead,BufNewFile *.coffee set filetype=coffee
