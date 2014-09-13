@@ -57,3 +57,13 @@ source ~/.host.bashrc
 
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+
+# Virtualenvwrapper stuff: setup env vars and make the directory
+# if it doesn't exist
+export WORKON_HOME=~/.virtualenv
+[ -d $WORKON_HOME ] || mkdir -p $WORKON_HOME
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    source /usr/local/bin/virtualenvwrapper.sh
+else
+    echo "Please install virtualenvwrapper: pip install virtualenvwrapper"
+fi
