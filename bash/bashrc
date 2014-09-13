@@ -32,7 +32,7 @@ alias gu="git pull"
 export PS1="\u@\h:\w> "
 
 # Other env
-export DEBEMAIL="lex.toumbourou@team.telstra.com"
+export DEBEMAIL="lextoumbourou@gmail.com"
 export DEBFULLNAME="Lex Toumbourou"
 export PYTHONSTARTUP=~/.pythonrc
 
