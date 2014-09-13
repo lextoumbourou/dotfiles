@@ -54,3 +54,6 @@ eval `keychain --eval id_rsa`
 
 # Host specific settings
 source ~/.host.bashrc
+
+# added by travis gem
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
