@@ -27,8 +27,8 @@ ln -sv ~/dotfiles/vim ~/.vim
 check_or_move '.vimrc'
 ln -sv ~/dotfiles/vim/vimrc ~/.vimrc
 
-check_or_move '.bashrc'
-ln -sv ~/dotfiles/bash/bashrc ~/.bashrc
+check_or_move '.bash_profile'
+ln -sv ~/dotfiles/bash/bashrc ~/.bash_profile
 
 check_or_move '.screenrc'
 ln -sv ~/dotfiles/screen/screenrc ~/.screenrc
